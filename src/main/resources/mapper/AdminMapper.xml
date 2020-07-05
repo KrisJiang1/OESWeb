@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oes.pojo.Admin">
+    <resultMap id="adminMap" type="com.oes.pojo.Admin">
+        <id property="adminId" column="admin_id"/>
+        <result property="adminName" column="admin_name"/>
+        <result property="adminPwd" column="admin_pwd"/>
+        <result property="adminLevel" column="admin_level"/>
+        <association property="teacher" javaType="com.oes.pojo.Teacher">
+            <id property="teaId" column="tea_id"/>
+            <result property="teaName" column="tea_name"/>
+            <result property="teaPhone" column="tea_phone"/>
+            <result property="teaSex" column="tea_sex"/>
+            <result property="teaEmail" column="tea_email"/>
+            <result property="teaIdNum" column="tea_idNum"/>
+        </association>
+    </resultMap>
+
+    <select id="selectMaxId" resultType="java.lang.Integer">
+        select NVL(MAX(STU_ID),0) as maxId from OES_ADMIN
+    </select>
+
+    <insert id="insertAdmin" parameterType="com.oes.pojo.Admin">
+        insert into OES_ADMIN values (#{adminId},#{adminName},#{adminPwd},#{adminLevel},#{teacher.teaId})
+    </insert>
+
+    <update id="updateAdmin" parameterType="com.oes.pojo.Admin">
+        update OES_ADMIN
+        <set>
+            <if test="adminName!=null">
+                admin_name = #{adminName},
+            </if>
+            <if test="adminPwd!=null">
+                admin_pwd = #{adminPwd},
+            </if>
+            <if test="adminLevel!=null">
+                admin_level = #{adminLevel},
+            </if>
+            <if test="teacher.teaId!=null">
+                admin_id = #{teacher.teaId},
+            </if>
+        </set>
+        where admin_id = #{adminId}
+    </update>
+
+    <delete id="deleteAdmin" parameterType="String">
+        delete from OES_ADMIN where admin_id = #{adminId}
+    </delete>
+
+    <select id="selectOneAdmin" parameterType="com.oes.pojo.Admin" resultMap="adminMap">
+        select a.ADMIN_ID,a.ADMIN_NAME,a.ADMIN_PWD,a.ADMIN_LEVEL,a.TEA_ID,t.TEA_NAME,t.TEA_PHONE,t.TEA_SEX,t.TEA_EMAIL,t.TEA_IDNUM
+        from OES_ADMIN a inner join OES_TEACHER t on a.TEA_ID = t.TEA_ID
+        <trim prefix="where" suffixOverrides="and|or" prefixOverrides="and|or">
+            <if test="adminId!=null">
+                admin_id = #{adminId} and
+            </if>
+            <if test="adminName!=null">
+                admin_name = #{adminName} and
+            </if>
+            <if test="adminPwd!=null">
+                admin_pwd = #{adminPwd} and
+            </if>
+            <if test="adminLevel!=null">
+                admin_level = #{adminLevel} and
+            </if>
+            <if test="teacher.teaId!=null">
+                a.tea_id = #{teacher.teaId}
+            </if>
+        </trim>
+        order by admin_id
+    </select>
+
+    <select id="selectAllAdmin" resultMap="adminMap">
+        select a.ADMIN_ID,a.ADMIN_NAME,a.ADMIN_PWD,a.ADMIN_LEVEL,a.TEA_ID,t.TEA_NAME,t.TEA_PHONE,t.TEA_SEX,t.TEA_EMAIL,t.TEA_IDNUM
+        from OES_ADMIN a inner join OES_TEACHER t on a.TEA_ID = t.TEA_ID
+        order by admin_id
+    </select>
+</mapper>

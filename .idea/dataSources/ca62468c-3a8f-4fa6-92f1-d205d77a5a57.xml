@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>12.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="C##SCOTT">
+      <ObjectId>107</ObjectId>
+      <IntrospectionTimestamp>2020-07-05.00:14:00</IntrospectionTimestamp>
+      <CreatedTimestamp>2020-03-03.01:51:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-05.00:13:59</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="DBSNMP">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="APPQOSSYS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="GSMCATUSER">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="GGSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XDB">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ANONYMOUS">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="WMSYS">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="OJVMSYS">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="CTXSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDSYS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="ORDDATA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="ORDPLUGINS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="MDSYS">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="OLAPSYS">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="MDDATA">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="C##JMY">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="41" parent="2" name="OES_ADMIN">
+      <ObjectId>83135</ObjectId>
+      <CreatedTimestamp>2020-07-04.07:16:36</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.07:53:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="42" parent="2" name="OES_CHOICE_QUESTION">
+      <ObjectId>83222</ObjectId>
+      <CreatedTimestamp>2020-07-05.00:12:52</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-05.00:13:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="2" name="OES_EXAMINFO">
+      <ObjectId>83185</ObjectId>
+      <CreatedTimestamp>2020-07-04.08:57:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:57:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="2" name="OES_JUDGE_QUESTION">
+      <ObjectId>83161</ObjectId>
+      <CreatedTimestamp>2020-07-04.08:20:32</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-05.00:13:59</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="2" name="OES_PAPERINFO">
+      <ObjectId>83175</ObjectId>
+      <CreatedTimestamp>2020-07-04.08:51:51</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:51:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="OES_QUESTION_PAPER">
+      <ObjectId>83177</ObjectId>
+      <CreatedTimestamp>2020-07-04.08:52:47</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:52:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="OES_SCOREINFO">
+      <ObjectId>83179</ObjectId>
+      <CreatedTimestamp>2020-07-04.08:55:01</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:55:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="2" name="OES_STUDENT">
+      <ObjectId>83136</ObjectId>
+      <CreatedTimestamp>2020-07-04.07:42:13</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.07:42:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="2" name="OES_STUDENT_PAPER">
+      <ObjectId>83187</ObjectId>
+      <CreatedTimestamp>2020-07-04.08:58:48</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:58:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="50" parent="2" name="OES_TEACHER">
+      <ObjectId>83138</ObjectId>
+      <CreatedTimestamp>2020-07-04.07:46:06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.07:46:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="51" parent="2" name="SHTP_BOUGHTGOODS">
+      <ObjectId>74035</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:52:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.02:01:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="52" parent="2" name="SHTP_CART">
+      <ObjectId>74037</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:52:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-15.00:48:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="53" parent="2" name="SHTP_COLLECTIONS">
+      <ObjectId>74025</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-23.04:24:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="54" parent="2" name="SHTP_GOODS">
+      <ObjectId>74021</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-06-16.22:18:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="55" parent="2" name="SHTP_GOODSMESSAGE">
+      <ObjectId>74023</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.02:01:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="56" parent="2" name="SHTP_GOODSTYPE">
+      <ObjectId>74777</ObjectId>
+      <CreatedTimestamp>2020-03-07.10:17:40</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-08.02:30:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="57" parent="2" name="SHTP_HAVESOLDGOODS">
+      <ObjectId>78517</ObjectId>
+      <CreatedTimestamp>2020-04-25.19:52:42</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-25.19:55:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="58" parent="2" name="SHTP_IPUBLISH">
+      <ObjectId>74031</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.02:01:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="59" parent="2" name="SHTP_STUDENT">
+      <ObjectId>74015</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:51:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-12.00:15:19</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="60" parent="2" name="SHTP_USER">
+      <ObjectId>74017</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-11.23:51:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="61" parent="2" name="SHTP_USERPWD">
+      <ObjectId>74019</ObjectId>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.08:39:02</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="62" parent="41" name="ADMIN_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="41" name="ADMIN_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="64" parent="41" name="ADMIN_PWD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="41" name="ADMIN_LEVEL">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>2</DefaultExpression>
+    </column>
+    <column id="66" parent="41" name="TEA_ID">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <foreign-key id="67" parent="41" name="OES_ADMIN_OES_TEACHER_TEA_ID_FK">
+      <ModifiedTimestamp>2020-07-04.07:53:27</ModifiedTimestamp>
+      <ColNames>TEA_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>OES_TEACHER</RefTableName>
+      <RefKeyName>SYS_C0012436</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="68" parent="42" name="QUES_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="42" name="QUES_CONTENT">
+      <Position>2</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="42" name="QUES_OPTION_A">
+      <Position>3</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="42" name="QUES_OPTION_B">
+      <Position>4</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="42" name="QUES_OPTION_C">
+      <Position>5</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="42" name="QUES_OPTION_D">
+      <Position>6</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="42" name="QUES_ANSWER">
+      <Position>7</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="75" parent="42" name="SYS_C0012521">
+      <ObjectId>83223</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-05.00:12:52</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-05.00:12:52</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>QUES_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="76" parent="42" name="SYS_C0012521">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-05.00:12:52</ModifiedTimestamp>
+      <ColNames>QUES_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012521</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="77" parent="43" name="STU_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="43" name="PAPER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="43" name="START_TIME">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="43" name="END_TIME">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="43" name="SPARE_TIME">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="82" parent="43" name="SYS_C0012490">
+      <ObjectId>83186</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.08:57:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:57:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PAPER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="43" name="SYS_C0012490">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.08:57:20</ModifiedTimestamp>
+      <ColNames>PAPER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012490</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="44" name="QUES_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="44" name="QUES_CONTENT">
+      <Position>2</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="44" name="QUES_ANSWER">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="87" parent="44" name="SYS_C0012453">
+      <ObjectId>83162</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.08:20:32</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:20:32</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>JUDGE_QUESTION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="44" name="SYS_C0012453">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.08:20:32</ModifiedTimestamp>
+      <ColNames>QUES_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012453</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="89" parent="45" name="PAPER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="45" name="PAPER_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="45" name="TEA_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="45" name="PAPER_DATE">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="45" name="PAPER_TIME">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="94" parent="45" name="SYS_C0012473">
+      <ObjectId>83176</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.08:51:51</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:51:51</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PAPER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="95" parent="45" name="SYS_C0012473">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.08:51:51</ModifiedTimestamp>
+      <ColNames>PAPER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012473</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="96" parent="46" name="PAPERID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="46" name="QUESTION_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="98" parent="46" name="SYS_C0012476">
+      <ObjectId>83178</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.08:52:47</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:52:47</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PAPERID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="99" parent="46" name="SYS_C0012476">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.08:52:47</ModifiedTimestamp>
+      <ColNames>PAPERID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012476</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="100" parent="47" name="STU_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="47" name="PAPER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="47" name="SCORE">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="103" parent="47" name="SYS_C0012480">
+      <ObjectId>83180</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.08:55:01</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:55:01</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PAPER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="104" parent="47" name="SYS_C0012480">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.08:55:01</ModifiedTimestamp>
+      <ColNames>PAPER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012480</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="105" parent="48" name="STU_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="48" name="STU_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="48" name="STU_PHONE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="48" name="STU_SEX">
+      <Position>4</Position>
+      <DataType>CHAR(2 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="48" name="STU_EMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="110" parent="48" name="STU_IDNUM">
+      <Position>6</Position>
+      <DataType>VARCHAR2(18 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="111" parent="48" name="SYS_C0012430">
+      <ObjectId>83137</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.07:42:13</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.07:42:13</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STU_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="112" parent="48" name="SYS_C0012430">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.07:42:13</ModifiedTimestamp>
+      <ColNames>STU_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012430</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="113" parent="49" name="STU_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="49" name="PAPER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="49" name="ISTESTED">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="116" parent="49" name="SYS_C0012494">
+      <ObjectId>83188</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.08:58:48</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.08:58:48</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PAPER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="117" parent="49" name="SYS_C0012494">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.08:58:48</ModifiedTimestamp>
+      <ColNames>PAPER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012494</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="118" parent="50" name="TEA_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="50" name="TEA_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="50" name="TEA_PHONE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="50" name="TEA_SEX">
+      <Position>4</Position>
+      <DataType>CHAR(1 byte)|0s</DataType>
+    </column>
+    <column id="122" parent="50" name="TEA_EMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="50" name="TEA_IDNUM">
+      <Position>6</Position>
+      <DataType>VARCHAR2(18 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="124" parent="50" name="SYS_C0012436">
+      <ObjectId>83139</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-07-04.07:46:06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-07-04.07:46:06</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TEA_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="50" name="SYS_C0012436">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-07-04.07:46:06</ModifiedTimestamp>
+      <ColNames>TEA_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012436</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="126" parent="51" name="BG_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="51" name="BG_DISPLAY">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="51" name="USER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="51" name="GOODS_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="51" name="BG_COUNT">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="131" parent="51" name="SYS_C007818">
+      <ObjectId>74036</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:52:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:52:00</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>BG_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="132" parent="51" name="SYS_C007818">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:52:00</ModifiedTimestamp>
+      <ColNames>BG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007818</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="133" parent="51" name="FK_USER_BOUGHTGOODS_USERID">
+      <ModifiedTimestamp>2020-03-03.02:01:50</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_USER</RefTableName>
+      <RefKeyName>SYS_C007759</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="134" parent="51" name="FK_GOODS_BOUGHTGOODS_GOODID">
+      <ModifiedTimestamp>2020-03-03.02:01:50</ModifiedTimestamp>
+      <ColNames>GOODS_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_GOODS</RefTableName>
+      <RefKeyName>SYS_C007775</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="135" parent="52" name="CART_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="52" name="CART_DISPLAY">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="52" name="USER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="52" name="GOODS_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="52" name="CART_GOODS_COUNT">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="140" parent="52" name="SYS_C007824">
+      <ObjectId>74038</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:52:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:52:00</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CART_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="141" parent="52" name="SYS_C007824">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:52:00</ModifiedTimestamp>
+      <ColNames>CART_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007824</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="142" parent="52" name="FK_USER_CART_USERID">
+      <ModifiedTimestamp>2020-04-15.00:48:09</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_USER</RefTableName>
+      <RefKeyName>SYS_C007759</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="143" parent="52" name="FK_GOODS_CART_GOODID">
+      <ModifiedTimestamp>2020-04-15.00:48:09</ModifiedTimestamp>
+      <ColNames>GOODS_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_GOODS</RefTableName>
+      <RefKeyName>SYS_C007775</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="144" parent="53" name="COLLECTIONS_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="53" name="GOODS_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="53" name="USER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="147" parent="53" name="SYS_C007785">
+      <ObjectId>74026</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>COLLECTIONS_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="148" parent="53" name="SYS_C007785">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <ColNames>COLLECTIONS_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007785</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="149" parent="53" name="FK_GOODS_COLLECTIONS_GOODSID">
+      <ModifiedTimestamp>2020-03-23.04:24:42</ModifiedTimestamp>
+      <ColNames>GOODS_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_GOODS</RefTableName>
+      <RefKeyName>SYS_C007775</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="150" parent="53" name="FK_USER_COLLECTIONS_USERID">
+      <ModifiedTimestamp>2020-03-23.04:24:42</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_USER</RefTableName>
+      <RefKeyName>SYS_C007759</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="151" parent="54" name="GOODS_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="54" name="GOODS_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="54" name="GOODS_LEVEL">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="154" parent="54" name="GOODS_REMARK">
+      <Position>4</Position>
+      <DataType>VARCHAR2(2000 byte)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="155" parent="54" name="GOODS_PRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="54" name="GOODS_COUNT">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="157" parent="54" name="GOODS_DISPLAY">
+      <Position>7</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <column id="158" parent="54" name="GOODS_SALES">
+      <Position>8</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="159" parent="54" name="GOODS_IMAGE">
+      <Position>9</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="160" parent="54" name="GOODS_TYPEID">
+      <Position>10</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="54" name="GOODS_RELEASETIME">
+      <Position>11</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="162" parent="54" name="USER_ID">
+      <Position>12</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="163" parent="54" name="SYS_C007775">
+      <ObjectId>74022</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>GOODS_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="164" parent="54" name="SYS_C007775">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <ColNames>GOODS_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007775</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="165" parent="54" name="SHTP_GOODS_SHTP_GOODSTYPE_TYPEID_FK">
+      <ModifiedTimestamp>2020-06-16.22:18:57</ModifiedTimestamp>
+      <ColNames>GOODS_TYPEID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_GOODSTYPE</RefTableName>
+      <RefKeyName>SYS_C008198</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="166" parent="55" name="GM_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="55" name="GOODS_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="168" parent="55" name="GM_CONTENT">
+      <Position>3</Position>
+      <DataType>VARCHAR2(120 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="169" parent="55" name="GM_DISPLAY">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="55" name="USER_ID">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="171" parent="55" name="SYS_C007781">
+      <ObjectId>74024</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>GM_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="172" parent="55" name="SYS_C007781">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <ColNames>GM_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007781</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="173" parent="55" name="FK_GOODS_GOODSMESSAGE_GOODID">
+      <ModifiedTimestamp>2020-03-03.02:01:49</ModifiedTimestamp>
+      <ColNames>GOODS_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_GOODS</RefTableName>
+      <RefKeyName>SYS_C007775</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="174" parent="55" name="FK_USER_GOODSMESSAGE_USERID">
+      <ModifiedTimestamp>2020-03-03.02:01:49</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_USER</RefTableName>
+      <RefKeyName>SYS_C007759</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="175" parent="56" name="TYPE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="176" parent="56" name="TYPE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="177" parent="56" name="SYS_C008198">
+      <ObjectId>74778</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-07.10:17:40</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-07.10:17:40</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TYPE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="178" parent="56" name="SYS_C008198">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-07.10:17:40</ModifiedTimestamp>
+      <ColNames>TYPE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C008198</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="179" parent="57" name="HSG_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="180" parent="57" name="USER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="181" parent="57" name="GOODS_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="182" parent="57" name="HSG_COUNT">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <index id="183" parent="57" name="SHTP_HAVESOLDGOODS_PK">
+      <ObjectId>78518</ObjectId>
+      <CreatedTimestamp>2020-04-25.19:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2020-04-25.19:55:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>HSG_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="184" parent="57" name="SHTP_HAVESOLDGOODS_PK">
+      <ModifiedTimestamp>2020-04-25.19:55:20</ModifiedTimestamp>
+      <ColNames>HSG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SHTP_HAVESOLDGOODS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="185" parent="58" name="IPUBLISH_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="58" name="IPUBLISH_DISPLAY">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="58" name="USER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="58" name="GOODS_ID">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="189" parent="58" name="SYS_C007807">
+      <ObjectId>74032</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>IPUBLISH_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="190" parent="58" name="SYS_C007807">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <ColNames>IPUBLISH_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007807</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="191" parent="58" name="FK_USER_IPUBLISH_USERID">
+      <ModifiedTimestamp>2020-03-03.02:01:50</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_USER</RefTableName>
+      <RefKeyName>SYS_C007759</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="192" parent="58" name="FK_GOODS_IPUBLISH_GOODID">
+      <ModifiedTimestamp>2020-03-03.02:01:50</ModifiedTimestamp>
+      <ColNames>GOODS_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_GOODS</RefTableName>
+      <RefKeyName>SYS_C007775</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="193" parent="59" name="STU_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="194" parent="59" name="STU_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="195" parent="59" name="STU_GENDER">
+      <Position>3</Position>
+      <DataType>CHAR(3 byte)|0s</DataType>
+      <DefaultExpression>&apos;男&apos;</DefaultExpression>
+    </column>
+    <column id="196" parent="59" name="STU_GRADE">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="197" parent="59" name="STU_CLASS">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="59" name="STU_DORMITORY">
+      <Position>6</Position>
+      <DataType>VARCHAR2(4 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="199" parent="59" name="STU_SNO">
+      <Position>7</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="200" parent="59" name="SYS_C007755">
+      <ObjectId>74016</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:51:58</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:51:58</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STU_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="201" parent="59" name="SYS_C007755">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:51:58</ModifiedTimestamp>
+      <ColNames>STU_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007755</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="202" parent="60" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="203" parent="60" name="USER_PHONE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="204" parent="60" name="USER_NICKNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="205" parent="60" name="USER_CREATETIME">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="206" parent="60" name="USER_AVATAR">
+      <Position>5</Position>
+      <DataType>VARCHAR2(200 byte)|0s</DataType>
+    </column>
+    <column id="207" parent="60" name="STU_ID">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="208" parent="60" name="SYS_C007759">
+      <ObjectId>74018</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="209" parent="60" name="SYS_C007759">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007759</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="210" parent="60" name="FK_STUDENT_USER_STUID">
+      <ModifiedTimestamp>2020-03-11.23:51:58</ModifiedTimestamp>
+      <ColNames>STU_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_STUDENT</RefTableName>
+      <RefKeyName>SYS_C007755</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="211" parent="61" name="USERPWD_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="212" parent="61" name="USER_PASSWORD">
+      <Position>2</Position>
+      <DataType>VARCHAR2(24 byte)|0s</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="213" parent="61" name="USER_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="214" parent="61" name="SYS_C007763">
+      <ObjectId>74020</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-03-03.01:51:59</CreatedTimestamp>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USERPWD_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="215" parent="61" name="SYS_C007763">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-03-03.01:51:59</ModifiedTimestamp>
+      <ColNames>USERPWD_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007763</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="216" parent="61" name="FK_USER_USERPWD_USERID">
+      <ModifiedTimestamp>2020-03-03.08:39:02</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>C##SCOTT</RefSchemaName>
+      <RefTableName>SHTP_USER</RefTableName>
+      <RefKeyName>SYS_C007759</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>
