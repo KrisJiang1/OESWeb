@@ -18,7 +18,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <spring.version>4.2.6.RELEASE</spring.version>
-    <jackson.verson>2.9.8</jackson.verson>
+    <jackson.verson>2.9.10.8</jackson.verson>
   </properties>
 
   <dependencies>
